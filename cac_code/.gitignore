@@ -1,0 +1,9 @@
+# never commit these
+__pycache__/
+*.pyc
+weights/
+hf/
+cache/
+*.safetensors
+*.bin
+.DS_Store

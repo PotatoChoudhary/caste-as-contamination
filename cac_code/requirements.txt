@@ -1,0 +1,8 @@
+# torch is provided by the RunPod cu128 / torch 2.8 template — do NOT reinstall it.
+transformers>=4.45
+accelerate
+huggingface_hub
+numpy
+scipy
+scikit-learn
+matplotlib
