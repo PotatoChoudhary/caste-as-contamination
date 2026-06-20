@@ -1,0 +1,18 @@
+# Core
+torch>=2.1
+transformers>=4.44
+accelerate>=0.30
+bitsandbytes>=0.43        # 4-bit inference for the 24B models
+
+# Interpretability (activation capture, steering, ablation)
+nnsight>=0.3             # swap for transformer-lens if you prefer
+
+# Analysis
+numpy
+scipy
+scikit-learn             # linear probes
+pandas
+
+# Data and plotting
+datasets                 # loading public contrast sets
+matplotlib
